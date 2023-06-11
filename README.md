@@ -26,16 +26,11 @@ To run the project in your local machine:
 5. Right click on the file and select "Open in default browser"
 6. A new window on your default browser should open with the web page containing the prework study guide
 
-To access the project deployed go to:
-TBD
-
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+After running the project you will be able to access some basic notes from my pre-work as shown in the below images:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/ss.png)
 
 ## Credits
 
