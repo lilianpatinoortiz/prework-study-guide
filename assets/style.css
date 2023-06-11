@@ -1,6 +1,7 @@
 * {
   margin: 0; /* space around the outside of an element*/
   padding: 0; /* space around the content inside an element*/
+  font-family: system-ui;
 }
 
 header,
@@ -12,7 +13,8 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h6 {
   text-align: center;
 }
 
@@ -27,7 +29,7 @@ img {
 
 ul {
   padding-left: 40px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 p {
@@ -44,4 +46,8 @@ p {
 p.footer {
   text-align: center;
   font-size: 30px;
+}
+.subtitle,
+.link {
+  text-align: right;
 }
