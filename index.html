@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./assets/scripts.js" defer></script>
     <title>Lilian's Prework Study Guide</title>
   </head>
   <body>
@@ -348,13 +349,138 @@
         </section>
         <section class="content">
           <br />
+          <h4>
+            JavaScript is a programming language that adds interactivity to your
+            website
+          </h4>
+          <br />
+          <li>
+            The core client-side JavaScript language consists of some common
+            programming features that allow us to:
+          </li>
           <ul>
-            <li>Enter your JS notes here</li>
+            <li>Store values inside variables</li>
+            <li>Operations on strings</li>
+            <li>Run code in response to certain events</li>
           </ul>
+          <br />
+          <li>JS has functionalities built on top of the client-side:</li>
+          <ul>
+            <li>
+              Application Programming Interfaces (APIs): ready-made sets of code
+              building blocks, allow devs to implement programs.
+            </li>
+            <ul>
+              <li>Categories:</li>
+              <ul>
+                <li>
+                  Browser APIs are built into your web browser, and are able to
+                  expose data from the surrounding computer environment, or do
+                  useful complex things.
+                </li>
+                <li>
+                  Third party APIs are not built into the browser by default,
+                  and you generally have to grab their code and information from
+                  somewhere on the Web
+                </li>
+              </ul>
+            </ul>
+          </ul>
+          <br />
+          <li>
+            The html, css and js are run in an execution environment (the
+            browser tab). Errors may occur if JavaScript is loaded and run
+            before the HTML and CSS that it is intended to modify.
+          </li>
+          <br />
+          <li>Types of code:</li>
+          <ul>
+            <li>
+              Interpreted code: the code is run from top to bottom and the
+              result of running the code is immediately returned. Ex javascript
+            </li>
+            <li>
+              Compiled languages on the other hand are transformed (compiled)
+              into another form before they are run by the computer. Ex C++
+            </li>
+            <li>
+              Client-side code: code is downloaded, runs on the user’s computer
+              and then is displayed. Ex vanilla javascript
+            </li>
+            <li>
+              Server-side code: runs on the server, results are downloaded and
+              displayed in the browser. Ex .NET or Node.js (javascript)
+            </li>
+            <li>Dynamic: ability to update the display of the webpage</li>
+            <li>Static: shows the same content all the time.</li>
+          </ul>
+          <br />
+          <li>JS is usually linked with the script element</li>
+          <ul>
+            <li>[script src="./assets/scripts.js" defer][/script]</li>
+            <li>
+              Defer attribute tells the browser to continue downloading the html
+              content once the script tag has been reached.
+            </li>
+            <li>Both the script and the html will load simultaneously!</li>
+          </ul>
+          <br />
+          <li>
+            Features to bypass blocking script (they instruct the browser):
+          </li>
+          <ul>
+            <li>
+              Your scripts should run immediately and dont have dependencies?
+            </li>
+            <ul>
+              <li>
+                Async: Scripts loaded using the async attribute will download
+                the script without blocking the page while the script is being
+                fetched. However, once the download is complete, the script will
+                execute, which blocks the page from rendering.
+              </li>
+            </ul>
+            <li>Your scripts need to wait for the DOM?</li>
+            <ul>
+              <li>
+                Defer: Scripts loaded with the defer attribute will load in the
+                order they appear on the page. They won't run until the page
+                content has all loaded, which is useful if your scripts depend
+                on the DOM being in place.
+              </li>
+            </ul>
+          </ul>
+          <br />
+          <li>Javascript is case sensitive ~</li>
+          <br />
+          <li>Variables: containers that store values.</li>
+          <ul>
+            <li>Data types holded in variables:</li>
+            <ul>
+              <li>String: sequence of text</li>
+              <li>Number</li>
+              <li>Boolean: true/false</li>
+              <li>Array: structure to store multiple values</li>
+              <li>Object: anything</li>
+            </ul>
+          </ul>
+          <br />
+          <li>Operators are mathematical symbols that produce a result</li>
+          <br />
+          <li>
+            Conditionals are code structures to test expressions. Ex if… else
+          </li>
+          <br />
+          <li>Functions are a way of packing functionality to be reused</li>
+          <br />
+          <li>
+            Events are code structures that listen for activity and run code in
+            response.
+          </li>
         </section>
         <section class="link">
           <a
-            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
             target="_blank"
           >
             To check the basic documentation click here
@@ -367,7 +493,5 @@
       <br />
       <p class="footer">See you later :)</p>
     </footer>
-
-    <script src="./assets/scripts.js"></script>
   </body>
 </html>
