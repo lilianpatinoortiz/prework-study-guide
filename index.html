@@ -10,64 +10,488 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <title>Prework Study Guide</title>
+    <script src="./assets/scripts.js" defer></script>
+    <title>Lilian's Prework Study Guide</title>
   </head>
   <body>
     <!-- body: contains the content that is visible to the user-->
 
     <header id="top">
-      <h1>Prework Study Guide</h1>
+      <h1>Lilian's Prework Study Guide</h1>
       <!-- tag (<h1>): refers to what appears inside the angle brackets, element (<h1></h1>): entire opening tag to closing tag -->
       <img
         src="./assets/bowtie-cat.png"
         alt="Profile image of cat wearing a bow tie."
       />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+      <h6>✨ Open the Console to See What's Happening ✨</h6>
     </header>
 
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
-        <ul>
-          <li>Enter your HTML notes here</li>
-        </ul>
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>
-            The body element represents the visible content shown to the user.
-          </li>
-        </ul>
+        <hr />
+        <br />
+        <section class="subtitle">
+          <h4>Hypertext Markup Language</h4>
+        </section>
+        <section class="content">
+          <br />
+          <h4>
+            One of the three cornerstone languages used in web development. Used
+            to create the structure of a webpage!
+          </h4>
+          <h4>A webpage is composed of elements that work together.</h4>
+          <br />
+          <ul>
+            <li>Elements are a type of content</li>
+            <ul>
+              <li>
+                Elements are usually composed of an opening tag and a closing
+                tag represented with angle brackets (< >)
+              </li>
+              <li>Tag: refers to what appears inside the angle brackets</li>
+              <li>Types of elements:</li>
+              <ul>
+                <li>Meta-related elements</li>
+                <li>
+                  Semantic elements (the name of the element describes its
+                  content and the role it plays on a webpage. Ex. body, section)
+                </li>
+                <li>Non semantic</li>
+                <ul>
+                  <li>Content division elements (Ex. div, span)</li>
+                  <li>Heading (Ex. h1,h2)</li>
+                  <li>Lists (Ex. ul, ol, li)</li>
+                </ul>
+              </ul>
+            </ul>
+            <br />
+            <li>
+              Elements are composed of tags and can have attributes. Tags
+              contain the content if open and closed!
+            </li>
+            <li>Nesting elements: Putting elements inside other elements.</li>
+            <li>
+              Void elements: elements with no content, just attributes and dont
+              have a closing tag. Ex img ([img src="images/firefox-icon.png"
+              alt="My test image"])
+            </li>
+            <br />
+            <li>Basic elements:</li>
+            <ul>
+              <li>
+                HTML: its the root of the document, contains the lang element.
+              </li>
+              <li>
+                Body: contains the content that is shown to the user. All the
+                elements that we want the user to see and interact with must be
+                placed inside this element
+              </li>
+              <li>
+                Head: contains information, or metadata, that helps the browser
+                to render the page correctly. Elements included within the
+                [head] are not visible when a user looks at a webpage
+              </li>
+              <ul>
+                <li>
+                  Usually the head element includes the following elements:
+                </li>
+                <ul>
+                  <li>
+                    Meta: contains information about the page that is used by
+                    the browser, defines metadata such as the character set,
+                    description, keywords, author, and viewport.
+                  </li>
+                  <li>Title: defines the title for a webpage</li>
+                  <li>Style: defines the CSS styles associated</li>
+                  <li>Base: defines the base URL for a webpage</li>
+                  <li>
+                    Link: connects an external resource to the HTML document
+                  </li>
+                  <li>
+                    Script: embeds client-side scripts in the HTML document
+                  </li>
+                </ul>
+              </ul>
+              <li>
+                Main: represents the dominant content of the [body] of a
+                document. The content inside the [main] element should be unique
+                to the document
+              </li>
+              <li>
+                Footer: contains the author, copyright, contact, sitemap, and
+                navigation
+              </li>
+            </ul>
+            <br />
+            <li>Most common elements inside body element:</li>
+            <ul>
+              <li>src: defines the location, or source, of the image file.</li>
+              <li>
+                img: contains information about images that are displayed on the
+                webpage
+              </li>
+              <li>
+                atr: contains a text string that describes the appearance and
+                functionality of the image.
+              </li>
+              <li>br: creates a line of empty space</li>
+              <li>a: anchor, creates links</li>
+              <li>href: attribute points to the URL for the link</li>
+              <li>ul: unordered list</li>
+              <li>ol: ordered list</li>
+              <li>li: list item</li>
+            </ul>
+          </ul>
+          <br />
+        </section>
+        <section class="link">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+            target="_blank"
+          >
+            To check the basic documentation click here
+          </a>
+        </section>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
-        <ul>
-          <li>Enter your CSS notes here</li>
-        </ul>
+        <hr />
+        <br />
+        <section class="subtitle">
+          <h4>Cascading Style Sheets</h4>
+        </section>
+        <section class="content">
+          <br />
+          <h4>
+            Is a style sheet programming language used by developers to define
+            how webpage content is presented to users
+          </h4>
+          <h4>
+            Whereas HTML strictly handles the structure and content of a
+            webpage, CSS defines the colors, aesthetics, visual layout, and
+            organization.
+          </h4>
+          <br />
+          <h4>
+            Css is a Stylesheet language used to describe the presentation of a
+            document written in HTML or XML.
+          </h4>
+          <h4>
+            Describes how elements should be rendered on screen, on paper, in
+            speech, or on other media.
+          </h4>
+          <br />
+          <h4>
+            Most HTML elements on your page can be thought of as boxes sitting
+            on top of other boxes. CSS layout is mostly based on the box model.
+          </h4>
+          <h4>Each box taking up space on your page has properties.</h4>
+          <br />
+          <ul>
+            <li>Ways to style a webpage using css:</li>
+            <ul>
+              <li>
+                Inline: style an element directly in the HTML file. Quick and
+                permanent changes, but not flexible!
+              </li>
+              <li>
+                Internal/ Embedded: You can use the [style] element in the
+                [head] element to put an entire stylesheet directly in the HTML
+                file.
+              </li>
+              <li>
+                External: most common, allows developers to keep all their CSS
+                rules in a separate file. We link the file using a [link]
+                element placed in the HTML's [head]
+              </li>
+            </ul>
+            <br />
+            <li>CSS rules:</li>
+            <ul>
+              <li>
+                Selector: defines the element or attributes to which the rules
+                will apply
+              </li>
+              <ul>
+                <li>Types of selectors:</li>
+                <ul>
+                  <li>
+                    Element selector: All HTML elements of the specified type.
+                    Ex my-element
+                  </li>
+                  <li>
+                    ID selector: The element on the page with the specified ID.
+                    Ex #my-id
+                  </li>
+                  <li>
+                    Class selector: The element(s) on the page with the
+                    specified class. Ex .my-class
+                  </li>
+                  <li>
+                    Attribute selector: The element(s) on the page with the
+                    specified attribute. Ex img[src]
+                  </li>
+                  <li>
+                    Pseudo-class selector: The specified element(s), but only
+                    when in the specified state. Ex a:hover
+                  </li>
+                </ul>
+              </ul>
+              <li>
+                Declarations: Contains the property we want to apply and the
+                value of the property
+              </li>
+              <li>Property: ways in which you can style an element</li>
+              <li>Property value: appearance for the given property</li>
+            </ul>
+            <br />
+            <li>Most common rules:</li>
+            <ul>
+              <li>Display (inline vs block)</li>
+              <li>Margin: space outside an element</li>
+              <li>
+                Padding: space inside an element (if you increase the padding,
+                you are making the element bigger)
+              </li>
+            </ul>
+            <br />
+            <li>DRY CODE: Do Not Repeat Yourself</li>
+            <li>
+              Coding principle that encourages developers to reuse or share
+              pieces of code in order to reduce the number of lines of code that
+              need to be written or maintained
+            </li>
+            <br />
+            <li>CSS is usually linked with the link element</li>
+            <li>Ex. [link rel="stylesheet" href="./assets/style.css"]</li>
+            <ul>
+              <li>Link: creates the connection to the external file</li>
+              <li>
+                Rel: attribute that specifies the relationship between the
+                current document and the linked document
+              </li>
+              <li>Href: specifies location of the external resource</li>
+            </ul>
+            <br />
+            <li>Types of elements in css:</li>
+            <ul>
+              <li>
+                Block (ex. body) - displayed as blocks, one on top of the other
+              </li>
+              <li>Inline (ex. images) - displayed one next to the other</li>
+            </ul>
+          </ul>
+        </section>
+        <section class="link">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+          >
+            To check the basic documentation click here
+          </a>
+        </section>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>
-            git checkout -b branch-name: creates a new branch and switches to it
-          </li>
-        </ul>
+        <hr />
+        <br />
+        <section class="subtitle">
+          <h4>Github</h4>
+        </section>
+        <section class="content">
+          <br />
+          <h4>
+            Web-based version control and collaboration platform for software
+            developers
+          </h4>
+          <br />
+          <ul>
+            <li>git status: checks what branch we are currently on</li>
+            <li>
+              git checkout -b branch-name: creates a new branch and switches to
+              it
+            </li>
+            <li>git add -A: add all the files modified</li>
+            <li>
+              git commit -m "message": commits the files added and adds a
+              message to that commit
+            </li>
+            <li>
+              git pull origin branch-name: gets the latest changes of the branch
+              selected
+            </li>
+            <li>
+              git push origin branch-name: pushes the comit(s) to the branch
+              created
+            </li>
+          </ul>
+        </section>
+        <section id="link" style="text-align: right">
+          <a
+            href="https://docs.github.com/en/get-started/quickstart"
+            target="_blank"
+          >
+            To check the basic documentation click here
+          </a>
+        </section>
+        <br />
       </section>
 
       <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>Enter your JavaScript notes here</li>
-        </ul>
+        <h2>JS</h2>
+        <hr />
+        <br />
+        <section class="subtitle">
+          <h4>Java Script</h4>
+        </section>
+        <section class="content">
+          <br />
+          <h4>
+            JavaScript is a programming language that adds interactivity to your
+            website
+          </h4>
+          <br />
+          <li>
+            The core client-side JavaScript language consists of some common
+            programming features that allow us to:
+          </li>
+          <ul>
+            <li>Store values inside variables</li>
+            <li>Operations on strings</li>
+            <li>Run code in response to certain events</li>
+          </ul>
+          <br />
+          <li>JS has functionalities built on top of the client-side:</li>
+          <ul>
+            <li>
+              Application Programming Interfaces (APIs): ready-made sets of code
+              building blocks, allow devs to implement programs.
+            </li>
+            <ul>
+              <li>Categories:</li>
+              <ul>
+                <li>
+                  Browser APIs are built into your web browser, and are able to
+                  expose data from the surrounding computer environment, or do
+                  useful complex things.
+                </li>
+                <li>
+                  Third party APIs are not built into the browser by default,
+                  and you generally have to grab their code and information from
+                  somewhere on the Web
+                </li>
+              </ul>
+            </ul>
+          </ul>
+          <br />
+          <li>
+            The html, css and js are run in an execution environment (the
+            browser tab). Errors may occur if JavaScript is loaded and run
+            before the HTML and CSS that it is intended to modify.
+          </li>
+          <br />
+          <li>Types of code:</li>
+          <ul>
+            <li>
+              Interpreted code: the code is run from top to bottom and the
+              result of running the code is immediately returned. Ex javascript
+            </li>
+            <li>
+              Compiled languages on the other hand are transformed (compiled)
+              into another form before they are run by the computer. Ex C++
+            </li>
+            <li>
+              Client-side code: code is downloaded, runs on the user’s computer
+              and then is displayed. Ex vanilla javascript
+            </li>
+            <li>
+              Server-side code: runs on the server, results are downloaded and
+              displayed in the browser. Ex .NET or Node.js (javascript)
+            </li>
+            <li>Dynamic: ability to update the display of the webpage</li>
+            <li>Static: shows the same content all the time.</li>
+          </ul>
+          <br />
+          <li>JS is usually linked with the script element</li>
+          <ul>
+            <li>[script src="./assets/scripts.js" defer][/script]</li>
+            <li>
+              Defer attribute tells the browser to continue downloading the html
+              content once the script tag has been reached.
+            </li>
+            <li>Both the script and the html will load simultaneously!</li>
+          </ul>
+          <br />
+          <li>
+            Features to bypass blocking script (they instruct the browser):
+          </li>
+          <ul>
+            <li>
+              Your scripts should run immediately and dont have dependencies?
+            </li>
+            <ul>
+              <li>
+                Async: Scripts loaded using the async attribute will download
+                the script without blocking the page while the script is being
+                fetched. However, once the download is complete, the script will
+                execute, which blocks the page from rendering.
+              </li>
+            </ul>
+            <li>Your scripts need to wait for the DOM?</li>
+            <ul>
+              <li>
+                Defer: Scripts loaded with the defer attribute will load in the
+                order they appear on the page. They won't run until the page
+                content has all loaded, which is useful if your scripts depend
+                on the DOM being in place.
+              </li>
+            </ul>
+          </ul>
+          <br />
+          <li>Javascript is case sensitive ~</li>
+          <br />
+          <li>Variables: containers that store values.</li>
+          <ul>
+            <li>Data types holded in variables:</li>
+            <ul>
+              <li>String: sequence of text</li>
+              <li>Number</li>
+              <li>Boolean: true/false</li>
+              <li>Array: structure to store multiple values</li>
+              <li>Object: anything</li>
+            </ul>
+          </ul>
+          <br />
+          <li>Operators are mathematical symbols that produce a result</li>
+          <br />
+          <li>
+            Conditionals are code structures to test expressions. Ex if… else
+          </li>
+          <br />
+          <li>Functions are a way of packing functionality to be reused</li>
+          <br />
+          <li>
+            Events are code structures that listen for activity and run code in
+            response.
+          </li>
+        </section>
+        <section class="link">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+            target="_blank"
+          >
+            To check the basic documentation click here
+          </a>
+        </section>
       </section>
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <br />
+      <p class="footer">See you later :)</p>
     </footer>
-
-    <script src="./assets/scripts.js"></script>
   </body>
 </html>

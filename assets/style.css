@@ -1,18 +1,20 @@
 * {
   margin: 0; /* space around the outside of an element*/
   padding: 0; /* space around the content inside an element*/
+  font-family: system-ui;
 }
 
 header,
 footer {
   width: 100%;
   height: 120px;
-  background-color: blue;
-  color: white;
+  background-color: #3ea6ce80;
+  color: black;
 }
 
 h1,
-h2 {
+h2,
+h6 {
   text-align: center;
 }
 
@@ -22,20 +24,30 @@ img {
   width: 50px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 50%;
 }
 
 ul {
   padding-left: 40px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 p {
-  text-align: center;
-  font-size: 30px;
+  text-align: left;
+  font-size: 18px;
 }
 .card {
   width: 80%;
   margin: 40px auto;
-  border: 5px solid #3983a3;
+  padding: 20px;
+  border: 0.5px solid #3983a3;
   box-shadow: 5px 10px 8px 3px #888888;
+}
+p.footer {
+  text-align: center;
+  font-size: 30px;
+}
+.subtitle,
+.link {
+  text-align: right;
 }
