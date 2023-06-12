@@ -31,6 +31,8 @@ To run the project in your local machine:
 After running the project you will be able to access some basic notes from my pre-work as shown in the below image.
 You will find one section for each topic: HTML, CSS, Git and JS.
 
+You can also access the deployment of the pre-work here: https://lilianpatinoortiz.github.io/prework-study-guide/
+
 ![alt text](assets/images/ss.png)
 
 ## Credits
