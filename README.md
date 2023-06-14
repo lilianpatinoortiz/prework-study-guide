@@ -26,6 +26,8 @@ To run the project in your local machine:
 5. Right click on the file and select "Open in default browser"
 6. A new window on your default browser should open with the web page containing the prework study guide
 
+Access the deployed project here: https://lilianpatinoortiz.github.io/prework-study-guide/
+
 ## Usage
 
 After running the project you will be able to access some basic notes from my pre-work as shown in the below image.
